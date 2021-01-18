@@ -4,8 +4,8 @@ class Stack {
   }
   push(record){
     this.data.push(record);
-  }
-  pop(){
+  } 
+   pop(){
     return this.data.pop();
   }
   peek(){
