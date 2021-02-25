@@ -53,6 +53,7 @@ class LinkedList {
     }
     if(!this.head.next){
       this.head = null
+      return;
     }
     let previous = this.head;
     let node = this.head.next;
